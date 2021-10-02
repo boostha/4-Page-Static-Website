@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Frontline Gaming</title>
+
+<!-- Links -->
+  <link rel="stylesheet" href="assets/css/remedy.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;800&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+</head>
+<body>
+
+  <nav>
+    <div class="navbar" id="navbar">
+        <a href="../index.html"><img class="logo" src="assets/pictures/alexa.png" alt="logo" width="100" height="95"></a>
+      <div class="navbar-menu" id="navbar-menu">
+        <ul class="navbar-list" id="navbar-list">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about/index.html">About</a></li>
+          <li><a href="../gallery/index.html">Gallery</a></li>
+          <li><a href="../shop/index.html">Shop</a></li>
+          <li><a href="../form/index.html" class="nav-btn">Join Us</a></li>
+          <div class="nav-close" id="nav-close">
+           <i class="las la-times"></i>
+          </div>
+        </ul>
+      </div>
+      <div class="nav-toggle" id="nav-toggle">
+        <i class="las la-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <h1>WE'RE EXCITED TO WORK WITH YOU</h1>
+  </header>
+
+  <main>
+    <section class="sign-up">
+      <h2>SIGN UP</h2>
+      <div class="form">
+        <form action="https://formspree.io/f/xayakewa" method="POST">
+            <fieldset class="form-wrapper">
+              <legend>Personal Information</legend>
+              <div class="form-input">
+                <label for="first">First Name</label>
+                <input type="text" id="first" name="first" required>
+              </div>
+              <div class="form-input">
+                <label for="last">Last Name</label>
+                <input type="text" id="last" name="last" required>
+              </div>
+              <div class="form-input">
+                <label for="Email">Email</label>
+                <input type="text" id="email" name="email" required>
+              </div>
+              <div class="form-input">
+                <label for="birthday">Birthday</label>
+                <input type="date" id="birthday" name="birthday" required>
+              </div>
+              <div class="form-input">
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender">
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">I rather not say</option>
+                </select>
+              </div>
+            </fieldset>
+
+            <fieldset class="form-wrapper">
+              <legend>Gamer Information</legend>
+              <div class="form-input">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username">
+              </div>
+              <div class="form-input">
+                <label for="instagram">Instagram</label>
+                <input type="text" id="instagram" name="instagram">
+              </div>
+              <div class="form-input">
+                <label for="tiktok">TikTok</label>
+                <input type="text" id="tiktok" name="tiktok">
+              </div>
+              <div class="form-input">
+                <label for="twitter">Twitter</label>
+                <input type="text" id="twitter" name="twitter">
+              </div>
+              <div class="form-input">
+                <label for="twitch">Twitch</label>
+                <input type="text" id="twitch" name="twitch">
+              </div>
+              <div class="form-input">
+                <label for="youtube">Youtube</label>
+                <input type="text" id="youtube" name="youtube">
+              </div>
+              <div class="form-input">
+                <label for="website">Website</label>
+                <input type="text" id="website" name="website">
+              </div>
+            </fieldset>
+
+            <fieldset class="form-wrapper add">
+              <legend>Additional Information</legend>
+              <div class="form-input">
+                <label for="game">What games do you play competitively?</label>
+                <input type="text" id="game" name="game">
+              </div>
+              <div class="form-input">
+                <label for="reason">Tell us about yourself and how you would fit into this team</label>
+                <textarea name="reason" rows="10" cols="25"></textarea>
+              </div>
+            </fieldset>
+            <button class="btn" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  
+
+
+  <footer>
+    <div class="footer">
+      <a href="../index.html"><img class="logo" src="assets/pictures/alexa.png" alt="logo" width="80" height="75"></a>
+    <ul>
+      <li>
+        <a href="#"><i class="lab la-facebook"></i></a>
+        <a href="#"><i class="lab la-instagram"></i></a>
+        <a href="#"><i class="lab la-twitter"></i></a>
+        <a href="#"><i class="lab la-youtube"></i></a>
+      </li>
+      <li class="active">&copy; David Ha 2021</li>
+    </ul>
+  </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  
+</body>
+</html>

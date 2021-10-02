@@ -1,0 +1,358 @@
+body {
+  margin: 0;
+  background-color: rgb(34, 34, 34);
+}
+
+main {
+  width: 100%;
+  margin: auto;
+}
+
+/* NAV */
+
+.nav-close {
+  display: none;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  background-color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+
+nav ul {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-btn {
+  background-color: #c300ff;
+  padding: 8px 16px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  border: 2px white solid;
+}
+
+.nav-btn:hover {
+  border: 2px black solid;
+}
+
+ul {
+  font-size: 3.5ch;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+.active {
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* HERO */
+
+.hero {
+  background-image: url("../pictures/controller.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  color: white;
+  font-size: clamp(7rem, 6vw, 15rem);
+  text-align: center;
+  text-shadow: 2px 2px 8px #000000;
+}
+
+/* CLOTHING SECTION */
+
+.tops div, .bottoms div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+
+.tops header, .bottoms header {
+  text-align: center;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+article h3 {
+  margin: 0;
+  width: 75%;
+}
+
+article p {
+  margin: 0;
+  width: 75%;
+  font-size: clamp(0.3rem, 5vw, 1rem);
+}
+
+.cards {
+  box-shadow: 10px 10px 10px #000000;
+}
+
+.cards:hover {
+  transform: scale(1.05);
+  transition: all 1s;
+}
+
+/* SHOP INFO */
+
+.shop-info {
+  text-align: center;
+  margin: 75px 15px;
+}
+
+.shop-info h2 {
+  margin: 0;
+  line-height: 5rem;
+  margin-bottom: 30px;
+}
+
+.shop-info p {
+  margin: 0;
+}
+
+.delivery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px
+}
+
+.icon {
+  font-size: 150px;
+}
+
+.shipping {
+  text-align: center;
+}
+
+.shipping p {
+  font-size: 1.5rem;
+  width: 100%;
+  margin: 0;
+}
+
+.icon {
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+.action {
+  text-align: center;
+}
+
+.action h2 {
+  margin: 0;
+}
+
+.action p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.last {
+  margin: 50px;
+}
+
+hr {
+  width: 50%;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: black;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+footer ul {
+  display: flex;
+  gap: 30px;
+  font-size: 2ch;
+}
+
+.footer .lab {
+  font-size: clamp(1.5rem, 4vw, 2rem);
+}
+
+/* FONTS */
+
+li, a {
+  font-family: 'Kanit', sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  font-family: 'Kanit', sans-serif;
+}
+
+h2 {
+  font-size: clamp(3.5rem, 8vw, 5rem);
+  font-family: 'Kanit', sans-serif;
+  color: white;
+  text-shadow: 2px 2px 8px #000000;
+  line-height: 6rem;
+}
+
+h3 {
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  font-family: 'Kanit', sans-serif;
+  color: white;
+  text-shadow: 2px 2px 8px #000000;
+}
+
+p {
+  font-size: clamp(0.7rem, 4vw, 1.5rem);
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+/* MISC */
+
+.disc:hover {
+  color: #1a6dff;
+  border: 1px #1a6dff solid;
+  transition: 0.2s ease-in;
+}
+
+a:hover {
+  color: #1a6dff;
+  transition: 0.2s ease-in;
+}
+
+.active:hover {
+  color: white;
+  cursor: default;
+}
+
+.disc {
+  border: 1px white solid;
+  padding: 5px 10px;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 10px 0px 40px 0px;
+}
+
+
+/* PHONE VIEW */
+
+@media screen and (max-width: 800px) {
+
+  .navbar-menu {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    padding: 4rem 0 3rem;
+    transition: .4s;
+  }
+  
+  .nav-close {
+    visibility: visible;
+    position: absolute;
+    right: 1.5rem;
+    top: 1rem;
+    cursor: pointer;
+    display: initial;
+  }
+  
+  .nav-toggle {
+    cursor: pointer;
+    display: initial;
+  }
+
+  .navbar-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .show-menu {
+    top: 0%;
+  }
+
+  .navbar .las {
+    color: white;
+    font-size: 2.5rem;
+  }
+
+  article {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cards {
+    width: 80%;
+    height: auto;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer ul {
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  h2{
+    line-height: 4.5rem;
+  }
+
+  .delivery {
+    flex-wrap: wrap;
+    gap: 20px
+  }
+
+  .shop-info h2 {
+    line-height: 3.5rem;
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+
+
+
+}
