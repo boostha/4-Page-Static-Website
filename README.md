@@ -5,9 +5,9 @@ CPNT 260 Assignment 4 - Landing Page with a Hero Section
 David Ha
 
 ## Github links
-[Github Pages]()
+[Github Pages](https://boostha.github.io/cpnt260-a4/)
 
-[Github Repo]()
+[Github Repo](https://github.com/boostha/cpnt260-a4.git)
 
 ## Client Info
 Who: Frontline Gaming
