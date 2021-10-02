@@ -50,7 +50,8 @@ nav ul {
 }
 
 .nav-btn:hover {
-  border: 2px black solid;
+  background: #0044ff;
+  color: white;
 }
 
 ul {
@@ -239,7 +240,8 @@ a:hover {
 }
 
 a.btn:hover {
-  border: 2px black solid;
+  background: #0044ff;
+  color: white;
 }
 
 
