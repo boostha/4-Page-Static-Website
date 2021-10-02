@@ -261,6 +261,7 @@ a.btn:hover {
     background-color: black;
     padding: 4rem 0 3rem;
     transition: .4s;
+    z-index: 20;
   }
   
   .nav-close {
