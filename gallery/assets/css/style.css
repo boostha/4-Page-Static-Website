@@ -223,6 +223,9 @@ figcaption .las {
   transition: 0.2s ease-in;
 }
 
+.gal-card {
+  object-fit: cover;
+}
 
 @media screen and (max-width: 900px) { 
   
