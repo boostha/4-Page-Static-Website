@@ -19,6 +19,6 @@ I tried to put a text shadow on the gradient text to make it more readable in th
 
 ## Attributions
 
-[Photo](https://unsplash.com/photos/jtPSdmlEOjk) by [Julian Hochgesang](https://unsplash.com/@julianhochgesang) under the [Unsplash License](https://unsplash.com/license)
+- [Photo](https://unsplash.com/photos/jtPSdmlEOjk) by [Julian Hochgesang](https://unsplash.com/@julianhochgesang) under the [Unsplash License](https://unsplash.com/license)
 
-Social media and navagation bar [icons](https://icons8.com/line-awesome) from Icons8 Line Awesome. This is the Icons8 [License](https://icons8.com/license) as well as Font Awesome [License](https://fontawesome.com/license)
+- Social media and navagation bar [icons](https://icons8.com/line-awesome) from Icons8 Line Awesome. This is the Icons8 [License](https://icons8.com/license) as well as Font Awesome [License](https://fontawesome.com/license)
