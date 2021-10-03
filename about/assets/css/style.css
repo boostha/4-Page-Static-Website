@@ -113,7 +113,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px
+  gap: 50px;
 }
 
 .second img {
@@ -146,8 +146,7 @@ ul {
 
 
 .third header h2 {
-  margin-top: 50px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   text-align: end;
   line-height: 70px;
 }
@@ -229,6 +228,7 @@ p {
   font-size: clamp(1rem, 4vw, 2rem);
   font-family: 'Roboto', sans-serif;
   color: white;
+  line-height: 2.7rem;
 }
 
 a:hover {
