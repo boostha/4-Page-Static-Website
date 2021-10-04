@@ -71,6 +71,7 @@ ul {
 .hero {
   background-image: url("../pictures/controller2.jpg");
   background-size: cover;
+  background-position: center center;
   width: 100%;
   height: 100vh;
   display: flex;
